@@ -12,4 +12,4 @@ libhello.so: hello.o
 libbye.so: bye.o
 	gcc -shared -o libbye.so bye.o
 clean:
-	rm *.out *.so
+	rm -rf *.out *.so
